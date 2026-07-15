@@ -1,0 +1,702 @@
+2026-07-14 17:24:47,227 INFO  ckw.tests.PerformanceTest - ******** Performance User end to end Test Started ********
+2026-07-14 17:24:47,245 INFO  ckw.tests.PerformanceTest - Logging in with Performance User.
+2026-07-14 17:24:55,573 INFO  ckw.tests.PerformanceTest - Products page displayed successfully after delayed login.
+2026-07-14 17:24:57,945 INFO  ckw.tests.PerformanceTest - Opening cart.
+2026-07-14 17:25:02,214 INFO  ckw.tests.PerformanceTest - Proceeding to checkout.
+2026-07-14 17:25:03,687 INFO  ckw.tests.PerformanceTest - Entering checkout information.
+2026-07-14 17:25:07,981 INFO  ckw.tests.PerformanceTest - Finishing checkout.
+2026-07-14 17:25:15,395 INFO  ckw.tests.PerformanceTest - Checkout completed successfully for Performance User.
+2026-07-14 17:25:15,397 INFO  ckw.tests.PerformanceTest - ******** Performance User Test Passed ********
+2026-07-14 17:29:20,435 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Started ********
+2026-07-14 17:29:20,440 INFO  ckw.tests.ProblemUserTest - Logging in with Problem User.
+2026-07-14 17:29:25,232 INFO  ckw.tests.ProblemUserTest - Products page displayed successfully.
+2026-07-14 17:29:25,232 INFO  ckw.tests.ProblemUserTest - Verifying sample products are visible.
+2026-07-14 17:29:25,556 INFO  ckw.tests.ProblemUserTest - Products are displayed successfully.
+2026-07-14 17:29:25,556 INFO  ckw.tests.ProblemUserTest - Known application behavior: Product images may not render correctly for problem_user.
+2026-07-14 17:29:25,556 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Passed ********
+2026-07-14 17:32:08,230 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:32:08,690 INFO  ckw.tests.LoginTest - Logging in as locked user
+2026-07-14 17:32:13,298 INFO  ckw.tests.LoginTest - locked user log-in not Successfull
+2026-07-14 17:32:18,673 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:32:18,677 INFO  ckw.tests.LoginTest - Logging in as Performance user
+2026-07-14 17:32:28,031 INFO  ckw.tests.LoginTest - Performance User Login Time : 4115 ms
+2026-07-14 17:32:28,033 INFO  ckw.tests.LoginTest - Successfully Logged in Performance user
+2026-07-14 17:32:34,150 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:32:34,153 INFO  ckw.tests.LoginTest - Logging in as problem user
+2026-07-14 17:32:39,071 INFO  ckw.tests.LoginTest - Successfully Logged in problem user
+2026-07-14 17:32:45,029 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:32:45,032 INFO  ckw.tests.LoginTest - Logging in as Standard User
+2026-07-14 17:32:50,115 INFO  ckw.tests.LoginTest - Successfully Logged in Standard User
+2026-07-14 17:32:54,918 INFO  ckw.tests.ProductTest - ******** Product List Test Started ********
+2026-07-14 17:32:54,918 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 17:32:59,147 INFO  ckw.tests.ProductTest - Verifying Products page is displayed.
+2026-07-14 17:33:00,090 INFO  ckw.tests.ProductTest - Products page displayed successfully.
+2026-07-14 17:33:00,092 INFO  ckw.tests.ProductTest - ******** Product List Test Passed ********
+2026-07-14 17:33:05,963 INFO  ckw.tests.ProductTest - ******** Product Details Test Started ********
+2026-07-14 17:33:05,963 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 17:33:11,607 INFO  ckw.tests.ProductTest - Verifying product name.
+2026-07-14 17:33:11,607 INFO  ckw.tests.ProductTest - Verifying product price.
+2026-07-14 17:33:11,607 INFO  ckw.tests.ProductTest - Product details verified successfully.
+2026-07-14 17:33:11,607 INFO  ckw.tests.ProductTest - ******** Product Details Test Passed ********
+2026-07-14 17:33:17,700 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Started ********
+2026-07-14 17:33:17,700 INFO  ckw.tests.LogoutTest - Logging in.
+2026-07-14 17:33:23,402 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 17:33:25,173 INFO  ckw.tests.LogoutTest - Clicking Continue Shopping.
+2026-07-14 17:33:26,122 INFO  ckw.tests.LogoutTest - Products page displayed after Continue Shopping.
+2026-07-14 17:33:26,122 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Passed ********
+2026-07-14 17:33:31,939 INFO  ckw.tests.LogoutTest - ******** Cart Test - Multiple Products Started ********
+2026-07-14 17:33:31,940 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 17:33:37,018 INFO  ckw.tests.LogoutTest - Selecting random products.
+2026-07-14 17:33:37,018 INFO  ckw.tests.LogoutTest - Capturing product details.
+2026-07-14 17:33:37,814 INFO  ckw.tests.LogoutTest - Adding products to cart.
+2026-07-14 17:33:39,327 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 17:33:40,995 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Bolt T-Shirt
+2026-07-14 17:33:41,239 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 17:33:41,240 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 17:33:41,240 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Onesie
+2026-07-14 17:33:41,599 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 17:33:41,599 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 17:33:47,728 INFO  ckw.tests.LogoutTest - ******** Cart Test - Single Product Started ********
+2026-07-14 17:33:47,729 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 17:33:52,210 INFO  ckw.tests.LogoutTest - Products page displayed.
+2026-07-14 17:33:52,210 INFO  ckw.tests.LogoutTest - Randomly selected product : Sauce Labs Backpack
+2026-07-14 17:33:52,590 INFO  ckw.tests.LogoutTest - Adding product to cart.
+2026-07-14 17:33:52,898 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 17:33:53,827 INFO  ckw.tests.LogoutTest - Verifying product in cart.
+2026-07-14 17:33:54,766 INFO  ckw.tests.LogoutTest - Single product added successfully.
+2026-07-14 17:33:54,766 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 17:35:07,035 INFO  ckw.tests.PerformanceTest - ******** Performance User end to end Test Started ********
+2026-07-14 17:35:07,036 INFO  ckw.tests.PerformanceTest - Logging in with Performance User.
+2026-07-14 17:35:15,750 INFO  ckw.tests.PerformanceTest - Products page displayed successfully after delayed login.
+2026-07-14 17:35:17,994 INFO  ckw.tests.PerformanceTest - Opening cart.
+2026-07-14 17:35:22,344 INFO  ckw.tests.PerformanceTest - Proceeding to checkout.
+2026-07-14 17:35:23,286 INFO  ckw.tests.PerformanceTest - Entering checkout information.
+2026-07-14 17:35:27,540 INFO  ckw.tests.PerformanceTest - Finishing checkout.
+2026-07-14 17:35:35,880 INFO  ckw.tests.PerformanceTest - Checkout completed successfully for Performance User.
+2026-07-14 17:35:35,880 INFO  ckw.tests.PerformanceTest - ******** Performance User Test Passed ********
+2026-07-14 17:35:40,444 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Started ********
+2026-07-14 17:35:40,444 INFO  ckw.tests.ProblemUserTest - Logging in with Problem User.
+2026-07-14 17:35:45,521 INFO  ckw.tests.ProblemUserTest - Products page displayed successfully.
+2026-07-14 17:35:45,521 INFO  ckw.tests.ProblemUserTest - Verifying sample products are visible.
+2026-07-14 17:35:45,827 INFO  ckw.tests.ProblemUserTest - Products are displayed successfully.
+2026-07-14 17:35:45,828 INFO  ckw.tests.ProblemUserTest - Known application behavior: Product images may not render correctly for problem_user.
+2026-07-14 17:35:45,828 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Passed ********
+2026-07-14 17:35:51,560 INFO  ckw.tests.LogoutTest - ******** Logout Test Started ********
+2026-07-14 17:35:51,560 INFO  ckw.tests.LogoutTest - Logging in with Standard User
+2026-07-14 17:35:56,534 INFO  ckw.tests.LogoutTest - Products page displayed successfully.
+2026-07-14 17:35:56,534 INFO  ckw.tests.LogoutTest - Opening menu and performing logout.
+2026-07-14 17:35:59,023 INFO  ckw.tests.LogoutTest - Logout successful. Login page displayed.
+2026-07-14 17:35:59,023 INFO  ckw.tests.LogoutTest - ******** Logout Test Passed ********
+2026-07-14 17:50:24,194 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:50:24,365 INFO  ckw.tests.LoginTest - Logging in as locked user
+2026-07-14 17:50:29,400 INFO  ckw.tests.LoginTest - locked user log-in not Successfull
+2026-07-14 17:50:34,856 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:50:34,857 INFO  ckw.tests.LoginTest - Logging in as Performance user
+2026-07-14 17:50:43,654 INFO  ckw.tests.LoginTest - Performance User Login Time : 4274 ms
+2026-07-14 17:50:43,654 INFO  ckw.tests.LoginTest - Successfully Logged in Performance user
+2026-07-14 17:50:49,758 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:50:49,760 INFO  ckw.tests.LoginTest - Logging in as problem user
+2026-07-14 17:50:55,028 INFO  ckw.tests.LoginTest - Successfully Logged in problem user
+2026-07-14 17:51:00,132 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:51:00,134 INFO  ckw.tests.LoginTest - Logging in as Standard User
+2026-07-14 17:51:05,352 INFO  ckw.tests.LoginTest - Successfully Logged in Standard User
+2026-07-14 17:51:10,305 INFO  ckw.tests.ProductTest - ******** Product List Test Started ********
+2026-07-14 17:51:10,306 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 17:51:14,417 INFO  ckw.tests.ProductTest - Verifying Products page is displayed.
+2026-07-14 17:51:15,344 INFO  ckw.tests.ProductTest - Products page displayed successfully.
+2026-07-14 17:51:15,345 INFO  ckw.tests.ProductTest - ******** Product List Test Passed ********
+2026-07-14 17:51:20,001 INFO  ckw.tests.ProductTest - ******** Product Details Test Started ********
+2026-07-14 17:51:20,001 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 17:51:25,321 INFO  ckw.tests.ProductTest - Verifying product name.
+2026-07-14 17:51:25,322 INFO  ckw.tests.ProductTest - Verifying product price.
+2026-07-14 17:51:25,322 INFO  ckw.tests.ProductTest - Product details verified successfully.
+2026-07-14 17:51:25,322 INFO  ckw.tests.ProductTest - ******** Product Details Test Passed ********
+2026-07-14 17:51:30,355 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Started ********
+2026-07-14 17:51:30,355 INFO  ckw.tests.LogoutTest - Logging in.
+2026-07-14 17:51:35,575 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 17:51:37,309 INFO  ckw.tests.LogoutTest - Clicking Continue Shopping.
+2026-07-14 17:51:38,179 INFO  ckw.tests.LogoutTest - Products page displayed after Continue Shopping.
+2026-07-14 17:51:38,179 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Passed ********
+2026-07-14 17:51:43,913 INFO  ckw.tests.LogoutTest - ******** Cart Test - Multiple Products Started ********
+2026-07-14 17:51:43,915 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 17:51:48,964 INFO  ckw.tests.LogoutTest - Selecting random products.
+2026-07-14 17:51:48,965 INFO  ckw.tests.LogoutTest - Capturing product details.
+2026-07-14 17:51:49,686 INFO  ckw.tests.LogoutTest - Adding products to cart.
+2026-07-14 17:51:51,137 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 17:51:52,794 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Backpack
+2026-07-14 17:51:53,013 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 17:51:53,013 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 17:51:53,013 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Fleece Jacket
+2026-07-14 17:51:53,251 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 17:51:53,251 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 17:51:58,881 INFO  ckw.tests.LogoutTest - ******** Cart Test - Single Product Started ********
+2026-07-14 17:51:58,882 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 17:52:04,262 INFO  ckw.tests.LogoutTest - Products page displayed.
+2026-07-14 17:52:04,263 INFO  ckw.tests.LogoutTest - Randomly selected product : Sauce Labs Bike Light
+2026-07-14 17:52:04,693 INFO  ckw.tests.LogoutTest - Adding product to cart.
+2026-07-14 17:52:05,046 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 17:52:06,061 INFO  ckw.tests.LogoutTest - Verifying product in cart.
+2026-07-14 17:52:06,976 INFO  ckw.tests.LogoutTest - Single product added successfully.
+2026-07-14 17:52:06,976 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 17:53:17,775 INFO  ckw.tests.PerformanceTest - ******** Performance User end to end Test Started ********
+2026-07-14 17:53:17,776 INFO  ckw.tests.PerformanceTest - Logging in with Performance User.
+2026-07-14 17:53:27,400 INFO  ckw.tests.PerformanceTest - Products page displayed successfully after delayed login.
+2026-07-14 17:53:31,101 INFO  ckw.tests.PerformanceTest - Opening cart.
+2026-07-14 17:53:34,295 INFO  ckw.tests.PerformanceTest - Proceeding to checkout.
+2026-07-14 17:53:35,030 INFO  ckw.tests.PerformanceTest - Entering checkout information.
+2026-07-14 17:53:39,735 INFO  ckw.tests.PerformanceTest - Finishing checkout.
+2026-07-14 17:53:47,142 INFO  ckw.tests.PerformanceTest - Checkout completed successfully for Performance User.
+2026-07-14 17:53:47,142 INFO  ckw.tests.PerformanceTest - ******** Performance User Test Passed ********
+2026-07-14 17:53:51,899 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Started ********
+2026-07-14 17:53:51,899 INFO  ckw.tests.ProblemUserTest - Logging in with Problem User.
+2026-07-14 17:53:56,295 INFO  ckw.tests.ProblemUserTest - Products page displayed successfully.
+2026-07-14 17:53:56,296 INFO  ckw.tests.ProblemUserTest - Verifying sample products are visible.
+2026-07-14 17:53:56,588 INFO  ckw.tests.ProblemUserTest - Products are displayed successfully.
+2026-07-14 17:53:56,588 INFO  ckw.tests.ProblemUserTest - Known application behavior: Product images may not render correctly for problem_user.
+2026-07-14 17:53:56,588 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Passed ********
+2026-07-14 17:54:01,306 INFO  ckw.tests.LogoutTest - ******** Logout Test Started ********
+2026-07-14 17:54:01,307 INFO  ckw.tests.LogoutTest - Logging in with Standard User
+2026-07-14 17:54:05,859 INFO  ckw.tests.LogoutTest - Products page displayed successfully.
+2026-07-14 17:54:05,859 INFO  ckw.tests.LogoutTest - Opening menu and performing logout.
+2026-07-14 17:54:08,329 INFO  ckw.tests.LogoutTest - Logout successful. Login page displayed.
+2026-07-14 17:54:08,329 INFO  ckw.tests.LogoutTest - ******** Logout Test Passed ********
+2026-07-14 17:55:24,063 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:55:24,214 INFO  ckw.tests.LoginTest - Logging in as locked user
+2026-07-14 17:55:29,208 INFO  ckw.tests.LoginTest - locked user log-in not Successfull
+2026-07-14 17:55:34,138 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:55:34,139 INFO  ckw.tests.LoginTest - Logging in as Performance user
+2026-07-14 17:55:43,116 INFO  ckw.tests.LoginTest - Performance User Login Time : 3945 ms
+2026-07-14 17:55:43,116 INFO  ckw.tests.LoginTest - Successfully Logged in Performance user
+2026-07-14 17:55:47,903 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:55:47,903 INFO  ckw.tests.LoginTest - Logging in as problem user
+2026-07-14 17:55:52,869 INFO  ckw.tests.LoginTest - Successfully Logged in problem user
+2026-07-14 17:55:57,542 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 17:55:57,544 INFO  ckw.tests.LoginTest - Logging in as Standard User
+2026-07-14 17:56:03,126 INFO  ckw.tests.LoginTest - Successfully Logged in Standard User
+2026-07-14 17:56:07,595 INFO  ckw.tests.ProductTest - ******** Product List Test Started ********
+2026-07-14 17:56:07,595 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 17:56:11,615 INFO  ckw.tests.ProductTest - Verifying Products page is displayed.
+2026-07-14 17:56:12,563 INFO  ckw.tests.ProductTest - Products page displayed successfully.
+2026-07-14 17:56:12,563 INFO  ckw.tests.ProductTest - ******** Product List Test Passed ********
+2026-07-14 17:56:17,158 INFO  ckw.tests.ProductTest - ******** Product Details Test Started ********
+2026-07-14 17:56:17,159 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 17:56:22,566 INFO  ckw.tests.ProductTest - Verifying product name.
+2026-07-14 17:56:22,566 INFO  ckw.tests.ProductTest - Verifying product price.
+2026-07-14 17:56:22,566 INFO  ckw.tests.ProductTest - Product details verified successfully.
+2026-07-14 17:56:22,566 INFO  ckw.tests.ProductTest - ******** Product Details Test Passed ********
+2026-07-14 17:56:27,336 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Started ********
+2026-07-14 17:56:27,336 INFO  ckw.tests.LogoutTest - Logging in.
+2026-07-14 17:56:32,735 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 17:56:34,482 INFO  ckw.tests.LogoutTest - Clicking Continue Shopping.
+2026-07-14 17:56:35,405 INFO  ckw.tests.LogoutTest - Products page displayed after Continue Shopping.
+2026-07-14 17:56:35,405 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Passed ********
+2026-07-14 17:56:40,125 INFO  ckw.tests.LogoutTest - ******** Cart Test - Multiple Products Started ********
+2026-07-14 17:56:40,125 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 17:56:45,117 INFO  ckw.tests.LogoutTest - Selecting random products.
+2026-07-14 17:56:45,117 INFO  ckw.tests.LogoutTest - Capturing product details.
+2026-07-14 17:56:45,886 INFO  ckw.tests.LogoutTest - Adding products to cart.
+2026-07-14 17:56:47,384 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 17:56:49,039 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Bolt T-Shirt
+2026-07-14 17:56:49,266 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 17:56:49,266 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 17:56:49,266 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Backpack
+2026-07-14 17:56:49,487 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 17:56:49,488 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 17:56:54,028 INFO  ckw.tests.LogoutTest - ******** Cart Test - Single Product Started ********
+2026-07-14 17:56:54,029 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 17:56:59,021 INFO  ckw.tests.LogoutTest - Products page displayed.
+2026-07-14 17:56:59,021 INFO  ckw.tests.LogoutTest - Randomly selected product : Sauce Labs Bolt T-Shirt
+2026-07-14 17:56:59,409 INFO  ckw.tests.LogoutTest - Adding product to cart.
+2026-07-14 17:56:59,714 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 17:57:00,646 INFO  ckw.tests.LogoutTest - Verifying product in cart.
+2026-07-14 17:57:02,436 INFO  ckw.tests.LogoutTest - Single product added successfully.
+2026-07-14 17:57:02,436 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 17:58:13,406 INFO  ckw.tests.PerformanceTest - ******** Performance User end to end Test Started ********
+2026-07-14 17:58:13,407 INFO  ckw.tests.PerformanceTest - Logging in with Performance User.
+2026-07-14 17:58:21,571 INFO  ckw.tests.PerformanceTest - Products page displayed successfully after delayed login.
+2026-07-14 17:58:23,850 INFO  ckw.tests.PerformanceTest - Opening cart.
+2026-07-14 17:58:27,506 INFO  ckw.tests.PerformanceTest - Proceeding to checkout.
+2026-07-14 17:58:28,207 INFO  ckw.tests.PerformanceTest - Entering checkout information.
+2026-07-14 17:58:32,972 INFO  ckw.tests.PerformanceTest - Finishing checkout.
+2026-07-14 17:58:41,403 INFO  ckw.tests.PerformanceTest - Checkout completed successfully for Performance User.
+2026-07-14 17:58:41,403 INFO  ckw.tests.PerformanceTest - ******** Performance User Test Passed ********
+2026-07-14 17:58:47,366 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Started ********
+2026-07-14 17:58:47,366 INFO  ckw.tests.ProblemUserTest - Logging in with Problem User.
+2026-07-14 17:58:52,576 INFO  ckw.tests.ProblemUserTest - Products page displayed successfully.
+2026-07-14 17:58:52,577 INFO  ckw.tests.ProblemUserTest - Verifying sample products are visible.
+2026-07-14 17:58:52,973 INFO  ckw.tests.ProblemUserTest - Products are displayed successfully.
+2026-07-14 17:58:52,973 INFO  ckw.tests.ProblemUserTest - Known application behavior: Product images may not render correctly for problem_user.
+2026-07-14 17:58:52,973 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Passed ********
+2026-07-14 17:58:57,795 INFO  ckw.tests.LogoutTest - ******** Logout Test Started ********
+2026-07-14 17:58:57,795 INFO  ckw.tests.LogoutTest - Logging in with Standard User
+2026-07-14 17:59:03,107 INFO  ckw.tests.LogoutTest - Products page displayed successfully.
+2026-07-14 17:59:03,107 INFO  ckw.tests.LogoutTest - Opening menu and performing logout.
+2026-07-14 17:59:05,604 INFO  ckw.tests.LogoutTest - Logout successful. Login page displayed.
+2026-07-14 17:59:05,604 INFO  ckw.tests.LogoutTest - ******** Logout Test Passed ********
+2026-07-14 18:51:18,807 INFO  ckw.tests.ProductTest - ******** Product List Test Started ********
+2026-07-14 18:51:18,813 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 18:51:22,846 INFO  ckw.tests.ProductTest - Verifying Products page is displayed.
+2026-07-14 18:51:23,792 INFO  ckw.tests.ProductTest - Products page displayed successfully.
+2026-07-14 18:51:23,792 INFO  ckw.tests.ProductTest - ******** Product List Test Passed ********
+2026-07-14 19:18:48,118 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Started ********
+2026-07-14 19:18:48,138 INFO  ckw.tests.e2e - Logging in with Standard User.
+2026-07-14 19:18:53,183 INFO  ckw.tests.e2e - Opening product: Sauce Labs Backpack
+2026-07-14 19:18:54,597 INFO  ckw.tests.e2e - Adding product from Product Details page.
+2026-07-14 19:18:54,761 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:18:57,501 INFO  ckw.tests.e2e - Proceeding to Checkout.
+2026-07-14 19:21:10,007 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Started ********
+2026-07-14 19:21:10,016 INFO  ckw.tests.e2e - Logging in with Standard User.
+2026-07-14 19:21:15,061 INFO  ckw.tests.e2e - Opening product: Sauce Labs Backpack
+2026-07-14 19:21:16,255 INFO  ckw.tests.e2e - Adding product from Product Details page.
+2026-07-14 19:21:16,417 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:21:19,044 INFO  ckw.tests.e2e - Proceeding to Checkout.
+2026-07-14 19:21:24,086 INFO  ckw.tests.e2e - Finishing checkout.
+2026-07-14 19:21:25,162 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:21:25,310 INFO  ckw.tests.e2e - Logging out.
+2026-07-14 19:21:28,241 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Passed ********
+2026-07-14 19:21:40,853 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 19:21:40,873 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 19:21:45,854 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 19:29:20,431 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 19:29:20,455 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 19:29:25,345 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 19:30:29,199 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 19:30:29,206 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 19:30:34,193 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 19:30:37,352 INFO  ckw.tests.e2e - Removing product: Sauce Labs Bolt T-Shirt
+2026-07-14 19:31:12,325 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 19:31:12,334 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 19:31:17,332 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 19:31:20,452 INFO  ckw.tests.e2e - Removing product: Sauce Labs Onesie
+2026-07-14 19:31:59,662 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 19:31:59,670 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 19:32:05,510 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 19:32:14,784 INFO  ckw.tests.e2e - Removing product: Sauce Labs Backpack
+2026-07-14 19:34:19,689 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 19:34:19,696 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 19:34:24,634 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 19:34:28,127 INFO  ckw.tests.e2e - Removing product: Sauce Labs Onesie
+2026-07-14 19:34:29,216 INFO  ckw.tests.e2e - Continuing shopping.
+2026-07-14 19:34:30,109 INFO  ckw.tests.e2e - Adding second set of products.
+2026-07-14 19:34:33,232 INFO  ckw.tests.e2e - Proceeding to Checkout.
+2026-07-14 19:34:38,319 INFO  ckw.tests.e2e - Completing purchase.
+2026-07-14 19:34:39,426 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:34:39,562 INFO  ckw.tests.e2e - Logging out.
+2026-07-14 19:34:42,482 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Passed ********
+2026-07-14 19:35:17,502 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:35:17,710 INFO  ckw.tests.LoginTest - Logging in as locked user
+2026-07-14 19:35:23,200 INFO  ckw.tests.LoginTest - locked user log-in not Successfull
+2026-07-14 19:35:28,084 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:35:28,084 INFO  ckw.tests.LoginTest - Logging in as Performance user
+2026-07-14 19:35:38,014 INFO  ckw.tests.LoginTest - Performance User Login Time : 4147 ms
+2026-07-14 19:35:38,015 INFO  ckw.tests.LoginTest - Successfully Logged in Performance user
+2026-07-14 19:35:43,898 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:35:43,899 INFO  ckw.tests.LoginTest - Logging in as problem user
+2026-07-14 19:35:49,009 INFO  ckw.tests.LoginTest - Successfully Logged in problem user
+2026-07-14 19:35:54,921 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:35:54,922 INFO  ckw.tests.LoginTest - Logging in as Standard User
+2026-07-14 19:35:59,557 INFO  ckw.tests.LoginTest - Successfully Logged in Standard User
+2026-07-14 19:36:04,364 INFO  ckw.tests.ProductTest - ******** Product List Test Started ********
+2026-07-14 19:36:04,364 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 19:36:08,481 INFO  ckw.tests.ProductTest - Verifying Products page is displayed.
+2026-07-14 19:36:09,429 INFO  ckw.tests.ProductTest - Products page displayed successfully.
+2026-07-14 19:36:09,429 INFO  ckw.tests.ProductTest - ******** Product List Test Passed ********
+2026-07-14 19:36:27,013 INFO  ckw.tests.ProductTest - ******** Product Details Test Started ********
+2026-07-14 19:36:27,013 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 19:36:32,316 INFO  ckw.tests.ProductTest - Verifying product name.
+2026-07-14 19:36:32,317 INFO  ckw.tests.ProductTest - Verifying product price.
+2026-07-14 19:36:32,317 INFO  ckw.tests.ProductTest - Product details verified successfully.
+2026-07-14 19:36:32,317 INFO  ckw.tests.ProductTest - ******** Product Details Test Passed ********
+2026-07-14 19:36:38,294 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Started ********
+2026-07-14 19:36:38,294 INFO  ckw.tests.LogoutTest - Logging in.
+2026-07-14 19:36:43,584 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 19:36:45,295 INFO  ckw.tests.LogoutTest - Clicking Continue Shopping.
+2026-07-14 19:36:46,186 INFO  ckw.tests.LogoutTest - Products page displayed after Continue Shopping.
+2026-07-14 19:36:46,187 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Passed ********
+2026-07-14 19:36:52,174 INFO  ckw.tests.LogoutTest - ******** Cart Test - Multiple Products Started ********
+2026-07-14 19:36:52,176 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 19:36:57,593 INFO  ckw.tests.LogoutTest - Selecting random products.
+2026-07-14 19:36:57,594 INFO  ckw.tests.LogoutTest - Capturing product details.
+2026-07-14 19:36:58,482 INFO  ckw.tests.LogoutTest - Adding products to cart.
+2026-07-14 19:37:00,170 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 19:37:02,143 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Backpack
+2026-07-14 19:37:02,409 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 19:37:02,409 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 19:37:02,409 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Fleece Jacket
+2026-07-14 19:37:02,650 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 19:37:02,650 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 19:37:07,663 INFO  ckw.tests.LogoutTest - ******** Cart Test - Single Product Started ********
+2026-07-14 19:37:07,663 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 19:37:12,772 INFO  ckw.tests.LogoutTest - Products page displayed.
+2026-07-14 19:37:12,773 INFO  ckw.tests.LogoutTest - Randomly selected product : Sauce Labs Onesie
+2026-07-14 19:37:13,190 INFO  ckw.tests.LogoutTest - Adding product to cart.
+2026-07-14 19:37:13,506 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 19:37:14,519 INFO  ckw.tests.LogoutTest - Verifying product in cart.
+2026-07-14 19:37:15,456 INFO  ckw.tests.LogoutTest - Single product added successfully.
+2026-07-14 19:37:15,457 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 19:38:29,250 INFO  ckw.tests.PerformanceTest - ******** Performance User end to end Test Started ********
+2026-07-14 19:38:29,251 INFO  ckw.tests.PerformanceTest - Logging in with Performance User.
+2026-07-14 19:38:38,301 INFO  ckw.tests.PerformanceTest - Products page displayed successfully after delayed login.
+2026-07-14 19:39:00,133 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Started ********
+2026-07-14 19:39:00,134 INFO  ckw.tests.ProblemUserTest - Logging in with Problem User.
+2026-07-14 19:39:05,340 INFO  ckw.tests.ProblemUserTest - Products page displayed successfully.
+2026-07-14 19:39:05,341 INFO  ckw.tests.ProblemUserTest - Verifying sample products are visible.
+2026-07-14 19:39:05,652 INFO  ckw.tests.ProblemUserTest - Products are displayed successfully.
+2026-07-14 19:39:05,652 INFO  ckw.tests.ProblemUserTest - Known application behavior: Product images may not render correctly for problem_user.
+2026-07-14 19:39:05,652 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Passed ********
+2026-07-14 19:39:10,307 INFO  ckw.tests.LogoutTest - ******** Logout Test Started ********
+2026-07-14 19:39:10,307 INFO  ckw.tests.LogoutTest - Logging in with Standard User
+2026-07-14 19:39:15,424 INFO  ckw.tests.LogoutTest - Products page displayed successfully.
+2026-07-14 19:39:15,426 INFO  ckw.tests.LogoutTest - Opening menu and performing logout.
+2026-07-14 19:39:17,917 INFO  ckw.tests.LogoutTest - Logout successful. Login page displayed.
+2026-07-14 19:39:17,917 INFO  ckw.tests.LogoutTest - ******** Logout Test Passed ********
+2026-07-14 19:39:22,862 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Started ********
+2026-07-14 19:39:22,862 INFO  ckw.tests.e2e - Logging in with Standard User.
+2026-07-14 19:39:27,931 INFO  ckw.tests.e2e - Opening product: Sauce Labs Backpack
+2026-07-14 19:39:29,021 INFO  ckw.tests.e2e - Adding product from Product Details page.
+2026-07-14 19:39:29,159 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:39:31,913 INFO  ckw.tests.e2e - Proceeding to Checkout.
+2026-07-14 19:39:37,058 INFO  ckw.tests.e2e - Finishing checkout.
+2026-07-14 19:39:38,149 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:39:38,300 INFO  ckw.tests.e2e - Logging out.
+2026-07-14 19:39:41,294 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Passed ********
+2026-07-14 19:39:46,084 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 19:39:46,085 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 19:39:51,056 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 19:39:54,095 INFO  ckw.tests.e2e - Removing product: Sauce Labs Bike Light
+2026-07-14 19:39:55,282 INFO  ckw.tests.e2e - Continuing shopping.
+2026-07-14 19:39:56,128 INFO  ckw.tests.e2e - Adding second set of products.
+2026-07-14 19:45:07,949 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:45:08,113 INFO  ckw.tests.LoginTest - Logging in as locked user
+2026-07-14 19:45:13,358 INFO  ckw.tests.LoginTest - locked user log-in not Successfull
+2026-07-14 19:45:18,254 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:45:18,254 INFO  ckw.tests.LoginTest - Logging in as Performance user
+2026-07-14 19:45:27,234 INFO  ckw.tests.LoginTest - Performance User Login Time : 4044 ms
+2026-07-14 19:45:27,234 INFO  ckw.tests.LoginTest - Successfully Logged in Performance user
+2026-07-14 19:45:32,309 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:45:32,310 INFO  ckw.tests.LoginTest - Logging in as problem user
+2026-07-14 19:45:37,340 INFO  ckw.tests.LoginTest - Successfully Logged in problem user
+2026-07-14 19:45:42,312 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:45:42,312 INFO  ckw.tests.LoginTest - Logging in as Standard User
+2026-07-14 19:45:47,352 INFO  ckw.tests.LoginTest - Successfully Logged in Standard User
+2026-07-14 19:45:52,310 INFO  ckw.tests.ProductTest - ******** Product List Test Started ********
+2026-07-14 19:45:52,311 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 19:45:56,483 INFO  ckw.tests.ProductTest - Verifying Products page is displayed.
+2026-07-14 19:45:57,428 INFO  ckw.tests.ProductTest - Products page displayed successfully.
+2026-07-14 19:45:57,428 INFO  ckw.tests.ProductTest - ******** Product List Test Passed ********
+2026-07-14 19:46:15,113 INFO  ckw.tests.ProductTest - ******** Product Details Test Started ********
+2026-07-14 19:46:15,114 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 19:46:20,622 INFO  ckw.tests.ProductTest - Verifying product name.
+2026-07-14 19:46:20,622 INFO  ckw.tests.ProductTest - Verifying product price.
+2026-07-14 19:46:20,622 INFO  ckw.tests.ProductTest - Product details verified successfully.
+2026-07-14 19:46:20,622 INFO  ckw.tests.ProductTest - ******** Product Details Test Passed ********
+2026-07-14 19:46:25,433 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Started ********
+2026-07-14 19:46:25,433 INFO  ckw.tests.LogoutTest - Logging in.
+2026-07-14 19:46:51,739 INFO  ckw.tests.LogoutTest - ******** Cart Test - Multiple Products Started ********
+2026-07-14 19:46:51,739 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 19:46:56,946 INFO  ckw.tests.LogoutTest - Selecting random products.
+2026-07-14 19:46:56,946 INFO  ckw.tests.LogoutTest - Capturing product details.
+2026-07-14 19:46:57,741 INFO  ckw.tests.LogoutTest - Adding products to cart.
+2026-07-14 19:46:59,435 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 19:47:01,079 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Fleece Jacket
+2026-07-14 19:47:01,340 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 19:47:01,341 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 19:47:01,341 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Bolt T-Shirt
+2026-07-14 19:47:02,384 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 19:47:02,384 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 19:47:07,098 INFO  ckw.tests.LogoutTest - ******** Cart Test - Single Product Started ********
+2026-07-14 19:47:07,098 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 19:47:11,909 INFO  ckw.tests.LogoutTest - Products page displayed.
+2026-07-14 19:47:11,909 INFO  ckw.tests.LogoutTest - Randomly selected product : Sauce Labs Fleece Jacket
+2026-07-14 19:47:12,401 INFO  ckw.tests.LogoutTest - Adding product to cart.
+2026-07-14 19:47:12,819 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 19:47:13,861 INFO  ckw.tests.LogoutTest - Verifying product in cart.
+2026-07-14 19:47:14,845 INFO  ckw.tests.LogoutTest - Single product added successfully.
+2026-07-14 19:47:14,846 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 19:48:30,019 INFO  ckw.tests.PerformanceTest - ******** Performance User end to end Test Started ********
+2026-07-14 19:48:30,022 INFO  ckw.tests.PerformanceTest - Logging in with Performance User.
+2026-07-14 19:48:39,385 INFO  ckw.tests.PerformanceTest - Products page displayed successfully after delayed login.
+2026-07-14 19:48:43,447 INFO  ckw.tests.PerformanceTest - Opening cart.
+2026-07-14 19:48:45,556 INFO  ckw.tests.PerformanceTest - Proceeding to checkout.
+2026-07-14 19:48:46,442 INFO  ckw.tests.PerformanceTest - Entering checkout information.
+2026-07-14 19:48:51,977 INFO  ckw.tests.PerformanceTest - Finishing checkout.
+2026-07-14 19:49:00,273 INFO  ckw.tests.PerformanceTest - Checkout completed successfully for Performance User.
+2026-07-14 19:49:00,274 INFO  ckw.tests.PerformanceTest - ******** Performance User Test Passed ********
+2026-07-14 19:49:05,708 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Started ********
+2026-07-14 19:49:05,708 INFO  ckw.tests.ProblemUserTest - Logging in with Problem User.
+2026-07-14 19:49:10,780 INFO  ckw.tests.ProblemUserTest - Products page displayed successfully.
+2026-07-14 19:49:10,780 INFO  ckw.tests.ProblemUserTest - Verifying sample products are visible.
+2026-07-14 19:49:11,124 INFO  ckw.tests.ProblemUserTest - Products are displayed successfully.
+2026-07-14 19:49:11,124 INFO  ckw.tests.ProblemUserTest - Known application behavior: Product images may not render correctly for problem_user.
+2026-07-14 19:49:11,124 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Passed ********
+2026-07-14 19:49:16,925 INFO  ckw.tests.LogoutTest - ******** Logout Test Started ********
+2026-07-14 19:49:16,926 INFO  ckw.tests.LogoutTest - Logging in with Standard User
+2026-07-14 19:49:22,338 INFO  ckw.tests.LogoutTest - Products page displayed successfully.
+2026-07-14 19:49:22,338 INFO  ckw.tests.LogoutTest - Opening menu and performing logout.
+2026-07-14 19:49:24,801 INFO  ckw.tests.LogoutTest - Logout successful. Login page displayed.
+2026-07-14 19:49:24,801 INFO  ckw.tests.LogoutTest - ******** Logout Test Passed ********
+2026-07-14 19:49:31,106 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Started ********
+2026-07-14 19:49:31,106 INFO  ckw.tests.e2e - Logging in with Standard User.
+2026-07-14 19:49:36,495 INFO  ckw.tests.e2e - Opening product: Sauce Labs Backpack
+2026-07-14 19:49:37,674 INFO  ckw.tests.e2e - Adding product from Product Details page.
+2026-07-14 19:49:37,853 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:49:40,568 INFO  ckw.tests.e2e - Proceeding to Checkout.
+2026-07-14 19:49:45,722 INFO  ckw.tests.e2e - Finishing checkout.
+2026-07-14 19:49:46,850 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:49:46,996 INFO  ckw.tests.e2e - Logging out.
+2026-07-14 19:49:49,943 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Passed ********
+2026-07-14 19:49:54,790 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 19:49:54,791 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 19:49:59,860 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 19:50:02,954 INFO  ckw.tests.e2e - Removing product: Sauce Labs Fleece Jacket
+2026-07-14 19:50:04,128 INFO  ckw.tests.e2e - Continuing shopping.
+2026-07-14 19:50:05,104 INFO  ckw.tests.e2e - Adding second set of products.
+2026-07-14 19:50:08,318 INFO  ckw.tests.e2e - Proceeding to Checkout.
+2026-07-14 19:50:13,405 INFO  ckw.tests.e2e - Completing purchase.
+2026-07-14 19:50:14,553 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:50:14,693 INFO  ckw.tests.e2e - Logging out.
+2026-07-14 19:50:17,716 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Passed ********
+2026-07-14 19:52:32,691 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:52:32,936 INFO  ckw.tests.LoginTest - Logging in as locked user
+2026-07-14 19:52:37,917 INFO  ckw.tests.LoginTest - locked user log-in not Successfull
+2026-07-14 19:52:43,915 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:52:43,918 INFO  ckw.tests.LoginTest - Logging in as Performance user
+2026-07-14 19:52:53,158 INFO  ckw.tests.LoginTest - Performance User Login Time : 4135 ms
+2026-07-14 19:52:53,159 INFO  ckw.tests.LoginTest - Successfully Logged in Performance user
+2026-07-14 19:52:58,044 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:52:58,046 INFO  ckw.tests.LoginTest - Logging in as problem user
+2026-07-14 19:53:03,204 INFO  ckw.tests.LoginTest - Successfully Logged in problem user
+2026-07-14 19:53:09,192 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 19:53:09,192 INFO  ckw.tests.LoginTest - Logging in as Standard User
+2026-07-14 19:53:14,306 INFO  ckw.tests.LoginTest - Successfully Logged in Standard User
+2026-07-14 19:53:19,865 INFO  ckw.tests.ProductTest - ******** Product List Test Started ********
+2026-07-14 19:53:19,865 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 19:53:23,944 INFO  ckw.tests.ProductTest - Verifying Products page is displayed.
+2026-07-14 19:53:24,895 INFO  ckw.tests.ProductTest - Products page displayed successfully.
+2026-07-14 19:53:24,895 INFO  ckw.tests.ProductTest - ******** Product List Test Passed ********
+2026-07-14 19:53:43,010 INFO  ckw.tests.ProductTest - ******** Product Details Test Started ********
+2026-07-14 19:53:43,010 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 19:53:48,737 INFO  ckw.tests.ProductTest - Verifying product name.
+2026-07-14 19:53:48,737 INFO  ckw.tests.ProductTest - Verifying product price.
+2026-07-14 19:53:48,737 INFO  ckw.tests.ProductTest - Product details verified successfully.
+2026-07-14 19:53:48,737 INFO  ckw.tests.ProductTest - ******** Product Details Test Passed ********
+2026-07-14 19:53:54,749 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Started ********
+2026-07-14 19:53:54,749 INFO  ckw.tests.LogoutTest - Logging in.
+2026-07-14 19:54:00,478 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 19:54:02,256 INFO  ckw.tests.LogoutTest - Clicking Continue Shopping.
+2026-07-14 19:54:03,217 INFO  ckw.tests.LogoutTest - Products page displayed after Continue Shopping.
+2026-07-14 19:54:03,217 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Passed ********
+2026-07-14 19:54:09,083 INFO  ckw.tests.LogoutTest - ******** Cart Test - Multiple Products Started ********
+2026-07-14 19:54:09,084 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 19:54:14,454 INFO  ckw.tests.LogoutTest - Selecting random products.
+2026-07-14 19:54:14,455 INFO  ckw.tests.LogoutTest - Capturing product details.
+2026-07-14 19:54:37,245 INFO  ckw.tests.LogoutTest - ******** Cart Test - Single Product Started ********
+2026-07-14 19:54:37,245 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 19:54:42,453 INFO  ckw.tests.LogoutTest - Products page displayed.
+2026-07-14 19:54:42,457 INFO  ckw.tests.LogoutTest - Randomly selected product : Sauce Labs Onesie
+2026-07-14 19:54:42,939 INFO  ckw.tests.LogoutTest - Adding product to cart.
+2026-07-14 19:54:43,337 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 19:54:44,317 INFO  ckw.tests.LogoutTest - Verifying product in cart.
+2026-07-14 19:54:45,291 INFO  ckw.tests.LogoutTest - Single product added successfully.
+2026-07-14 19:54:45,291 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 19:56:02,894 INFO  ckw.tests.PerformanceTest - ******** Performance User end to end Test Started ********
+2026-07-14 19:56:02,897 INFO  ckw.tests.PerformanceTest - Logging in with Performance User.
+2026-07-14 19:56:13,610 INFO  ckw.tests.PerformanceTest - Products page displayed successfully after delayed login.
+2026-07-14 19:56:34,180 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Started ********
+2026-07-14 19:56:34,180 INFO  ckw.tests.ProblemUserTest - Logging in with Problem User.
+2026-07-14 19:56:39,208 INFO  ckw.tests.ProblemUserTest - Products page displayed successfully.
+2026-07-14 19:56:39,208 INFO  ckw.tests.ProblemUserTest - Verifying sample products are visible.
+2026-07-14 19:56:39,535 INFO  ckw.tests.ProblemUserTest - Products are displayed successfully.
+2026-07-14 19:56:39,535 INFO  ckw.tests.ProblemUserTest - Known application behavior: Product images may not render correctly for problem_user.
+2026-07-14 19:56:39,535 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Passed ********
+2026-07-14 19:56:44,981 INFO  ckw.tests.LogoutTest - ******** Logout Test Started ********
+2026-07-14 19:56:44,981 INFO  ckw.tests.LogoutTest - Logging in with Standard User
+2026-07-14 19:56:49,966 INFO  ckw.tests.LogoutTest - Products page displayed successfully.
+2026-07-14 19:56:49,966 INFO  ckw.tests.LogoutTest - Opening menu and performing logout.
+2026-07-14 19:56:52,513 INFO  ckw.tests.LogoutTest - Logout successful. Login page displayed.
+2026-07-14 19:56:52,513 INFO  ckw.tests.LogoutTest - ******** Logout Test Passed ********
+2026-07-14 19:56:57,182 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Started ********
+2026-07-14 19:56:57,183 INFO  ckw.tests.e2e - Logging in with Standard User.
+2026-07-14 19:57:02,592 INFO  ckw.tests.e2e - Opening product: Sauce Labs Backpack
+2026-07-14 19:57:03,772 INFO  ckw.tests.e2e - Adding product from Product Details page.
+2026-07-14 19:57:03,930 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:57:06,669 INFO  ckw.tests.e2e - Proceeding to Checkout.
+2026-07-14 19:57:11,805 INFO  ckw.tests.e2e - Finishing checkout.
+2026-07-14 19:57:12,950 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 19:57:13,111 INFO  ckw.tests.e2e - Logging out.
+2026-07-14 19:57:16,073 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Passed ********
+2026-07-14 19:57:21,025 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 19:57:21,025 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 19:57:25,579 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 20:04:34,495 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 20:04:34,515 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 20:04:39,408 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 20:04:42,851 INFO  ckw.tests.e2e - Removing product: Sauce Labs Fleece Jacket
+2026-07-14 20:04:43,953 INFO  ckw.tests.e2e - Continuing shopping.
+2026-07-14 20:04:44,879 INFO  ckw.tests.e2e - Adding second set of products.
+2026-07-14 20:09:09,364 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 20:09:09,370 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 20:09:14,371 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 20:09:17,465 INFO  ckw.tests.e2e - Removing product: Sauce Labs Bolt T-Shirt
+2026-07-14 20:09:18,668 INFO  ckw.tests.e2e - Continuing shopping.
+2026-07-14 20:09:19,527 INFO  ckw.tests.e2e - Adding second set of products.
+2026-07-14 20:10:50,789 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 20:10:50,796 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 20:10:55,874 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 20:16:19,420 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 20:16:19,571 INFO  ckw.tests.LoginTest - Logging in as locked user
+2026-07-14 20:16:24,577 INFO  ckw.tests.LoginTest - locked user log-in not Successfull
+2026-07-14 20:16:29,700 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 20:16:29,701 INFO  ckw.tests.LoginTest - Logging in as Performance user
+2026-07-14 20:16:39,204 INFO  ckw.tests.LoginTest - Performance User Login Time : 4146 ms
+2026-07-14 20:16:39,204 INFO  ckw.tests.LoginTest - Successfully Logged in Performance user
+2026-07-14 20:16:44,186 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 20:16:44,187 INFO  ckw.tests.LoginTest - Logging in as problem user
+2026-07-14 20:16:49,259 INFO  ckw.tests.LoginTest - Successfully Logged in problem user
+2026-07-14 20:16:54,872 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 20:16:54,873 INFO  ckw.tests.LoginTest - Logging in as Standard User
+2026-07-14 20:16:59,536 INFO  ckw.tests.LoginTest - Successfully Logged in Standard User
+2026-07-14 20:17:05,529 INFO  ckw.tests.ProductTest - ******** Product List Test Started ********
+2026-07-14 20:17:05,530 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 20:17:09,687 INFO  ckw.tests.ProductTest - Verifying Products page is displayed.
+2026-07-14 20:17:10,647 INFO  ckw.tests.ProductTest - Products page displayed successfully.
+2026-07-14 20:17:10,647 INFO  ckw.tests.ProductTest - ******** Product List Test Passed ********
+2026-07-14 20:17:28,981 INFO  ckw.tests.ProductTest - ******** Product Details Test Started ********
+2026-07-14 20:17:28,982 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 20:17:34,420 INFO  ckw.tests.ProductTest - Verifying product name.
+2026-07-14 20:17:34,420 INFO  ckw.tests.ProductTest - Verifying product price.
+2026-07-14 20:17:34,420 INFO  ckw.tests.ProductTest - Product details verified successfully.
+2026-07-14 20:17:34,420 INFO  ckw.tests.ProductTest - ******** Product Details Test Passed ********
+2026-07-14 20:17:39,164 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Started ********
+2026-07-14 20:17:39,164 INFO  ckw.tests.LogoutTest - Logging in.
+2026-07-14 20:17:44,398 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 20:17:46,140 INFO  ckw.tests.LogoutTest - Clicking Continue Shopping.
+2026-07-14 20:17:47,111 INFO  ckw.tests.LogoutTest - Products page displayed after Continue Shopping.
+2026-07-14 20:17:47,111 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Passed ********
+2026-07-14 20:17:52,952 INFO  ckw.tests.LogoutTest - ******** Cart Test - Multiple Products Started ********
+2026-07-14 20:17:52,952 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 20:17:57,462 INFO  ckw.tests.LogoutTest - Selecting random products.
+2026-07-14 20:17:57,463 INFO  ckw.tests.LogoutTest - Capturing product details.
+2026-07-14 20:17:59,358 INFO  ckw.tests.LogoutTest - Adding products to cart.
+2026-07-14 20:18:04,531 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 20:18:06,215 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Bolt T-Shirt
+2026-07-14 20:18:06,473 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 20:18:06,473 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 20:18:06,473 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Bike Light
+2026-07-14 20:18:06,748 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 20:18:06,748 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 20:18:06,748 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Fleece Jacket
+2026-07-14 20:18:07,049 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 20:18:07,049 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 20:18:07,049 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Backpack
+2026-07-14 20:18:07,551 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 20:18:07,551 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 20:18:07,551 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Onesie
+2026-07-14 20:18:07,840 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 20:18:07,840 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 20:18:12,864 INFO  ckw.tests.LogoutTest - ******** Cart Test - Single Product Started ********
+2026-07-14 20:18:12,864 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 20:18:17,955 INFO  ckw.tests.LogoutTest - Products page displayed.
+2026-07-14 20:18:17,955 INFO  ckw.tests.LogoutTest - Randomly selected product : Sauce Labs Backpack
+2026-07-14 20:18:18,330 INFO  ckw.tests.LogoutTest - Adding product to cart.
+2026-07-14 20:18:18,611 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 20:18:19,580 INFO  ckw.tests.LogoutTest - Verifying product in cart.
+2026-07-14 20:18:20,855 INFO  ckw.tests.LogoutTest - Single product added successfully.
+2026-07-14 20:18:20,855 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 20:18:59,111 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 20:18:59,492 INFO  ckw.tests.LoginTest - Logging in as locked user
+2026-07-14 20:19:04,590 INFO  ckw.tests.LoginTest - locked user log-in not Successfull
+2026-07-14 20:19:10,439 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 20:19:10,440 INFO  ckw.tests.LoginTest - Logging in as Performance user
+2026-07-14 20:19:18,836 INFO  ckw.tests.LoginTest - Performance User Login Time : 4274 ms
+2026-07-14 20:19:18,836 INFO  ckw.tests.LoginTest - Successfully Logged in Performance user
+2026-07-14 20:19:24,535 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 20:19:24,536 INFO  ckw.tests.LoginTest - Logging in as problem user
+2026-07-14 20:19:29,655 INFO  ckw.tests.LoginTest - Successfully Logged in problem user
+2026-07-14 20:19:35,497 INFO  ckw.tests.LoginTest - Launching application
+2026-07-14 20:19:35,498 INFO  ckw.tests.LoginTest - Logging in as Standard User
+2026-07-14 20:19:40,585 INFO  ckw.tests.LoginTest - Successfully Logged in Standard User
+2026-07-14 20:19:46,578 INFO  ckw.tests.ProductTest - ******** Product List Test Started ********
+2026-07-14 20:19:46,579 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 20:19:50,769 INFO  ckw.tests.ProductTest - Verifying Products page is displayed.
+2026-07-14 20:19:51,838 INFO  ckw.tests.ProductTest - Products page displayed successfully.
+2026-07-14 20:19:51,838 INFO  ckw.tests.ProductTest - ******** Product List Test Passed ********
+2026-07-14 20:20:10,351 INFO  ckw.tests.ProductTest - ******** Product Details Test Started ********
+2026-07-14 20:20:10,353 INFO  ckw.tests.ProductTest - Logging in with Standard User.
+2026-07-14 20:20:16,125 INFO  ckw.tests.ProductTest - Verifying product name.
+2026-07-14 20:20:16,126 INFO  ckw.tests.ProductTest - Verifying product price.
+2026-07-14 20:20:16,126 INFO  ckw.tests.ProductTest - Product details verified successfully.
+2026-07-14 20:20:16,126 INFO  ckw.tests.ProductTest - ******** Product Details Test Passed ********
+2026-07-14 20:20:22,380 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Started ********
+2026-07-14 20:20:22,380 INFO  ckw.tests.LogoutTest - Logging in.
+2026-07-14 20:20:27,891 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 20:20:29,903 INFO  ckw.tests.LogoutTest - Clicking Continue Shopping.
+2026-07-14 20:20:30,906 INFO  ckw.tests.LogoutTest - Products page displayed after Continue Shopping.
+2026-07-14 20:20:30,906 INFO  ckw.tests.LogoutTest - ******** Continue Shopping Test Passed ********
+2026-07-14 20:20:36,656 INFO  ckw.tests.LogoutTest - ******** Cart Test - Multiple Products Started ********
+2026-07-14 20:20:36,657 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 20:20:41,910 INFO  ckw.tests.LogoutTest - Selecting random products.
+2026-07-14 20:20:41,910 INFO  ckw.tests.LogoutTest - Capturing product details.
+2026-07-14 20:20:43,302 INFO  ckw.tests.LogoutTest - Adding products to cart.
+2026-07-14 20:20:45,761 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 20:20:47,474 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Backpack
+2026-07-14 20:20:47,743 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 20:20:47,745 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 20:20:47,745 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Bolt T-Shirt
+2026-07-14 20:20:48,029 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 20:20:48,029 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 20:20:48,029 INFO  ckw.tests.LogoutTest - Verifying : Sauce Labs Bike Light
+2026-07-14 20:20:48,296 INFO  ckw.tests.LogoutTest - Multiple products verified successfully.
+2026-07-14 20:20:48,296 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 20:20:54,460 INFO  ckw.tests.LogoutTest - ******** Cart Test - Single Product Started ********
+2026-07-14 20:20:54,460 INFO  ckw.tests.LogoutTest - Logging in with Standard User.
+2026-07-14 20:20:59,713 INFO  ckw.tests.LogoutTest - Products page displayed.
+2026-07-14 20:20:59,713 INFO  ckw.tests.LogoutTest - Randomly selected product : Sauce Labs Backpack
+2026-07-14 20:21:00,138 INFO  ckw.tests.LogoutTest - Adding product to cart.
+2026-07-14 20:21:00,470 INFO  ckw.tests.LogoutTest - Opening cart.
+2026-07-14 20:21:01,415 INFO  ckw.tests.LogoutTest - Verifying product in cart.
+2026-07-14 20:21:02,878 INFO  ckw.tests.LogoutTest - Single product added successfully.
+2026-07-14 20:21:02,878 INFO  ckw.tests.LogoutTest - ******** Cart Test Passed ********
+2026-07-14 20:22:20,806 INFO  ckw.tests.PerformanceTest - ******** Performance User end to end Test Started ********
+2026-07-14 20:22:20,808 INFO  ckw.tests.PerformanceTest - Logging in with Performance User.
+2026-07-14 20:22:29,535 INFO  ckw.tests.PerformanceTest - Products page displayed successfully after delayed login.
+2026-07-14 20:22:33,078 INFO  ckw.tests.PerformanceTest - Opening cart.
+2026-07-14 20:22:36,195 INFO  ckw.tests.PerformanceTest - Proceeding to checkout.
+2026-07-14 20:22:37,337 INFO  ckw.tests.PerformanceTest - Entering checkout information.
+2026-07-14 20:22:41,953 INFO  ckw.tests.PerformanceTest - Finishing checkout.
+2026-07-14 20:22:48,589 INFO  ckw.tests.PerformanceTest - Checkout completed successfully for Performance User.
+2026-07-14 20:22:48,589 INFO  ckw.tests.PerformanceTest - ******** Performance User Test Passed ********
+2026-07-14 20:22:54,713 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Started ********
+2026-07-14 20:22:54,713 INFO  ckw.tests.ProblemUserTest - Logging in with Problem User.
+2026-07-14 20:22:59,737 INFO  ckw.tests.ProblemUserTest - Products page displayed successfully.
+2026-07-14 20:22:59,737 INFO  ckw.tests.ProblemUserTest - Verifying sample products are visible.
+2026-07-14 20:23:00,068 INFO  ckw.tests.ProblemUserTest - Products are displayed successfully.
+2026-07-14 20:23:00,069 INFO  ckw.tests.ProblemUserTest - Known application behavior: Product images may not render correctly for problem_user.
+2026-07-14 20:23:00,069 INFO  ckw.tests.ProblemUserTest - ******** Problem User Test Passed ********
+2026-07-14 20:23:04,949 INFO  ckw.tests.LogoutTest - ******** Logout Test Started ********
+2026-07-14 20:23:04,949 INFO  ckw.tests.LogoutTest - Logging in with Standard User
+2026-07-14 20:23:09,948 INFO  ckw.tests.LogoutTest - Products page displayed successfully.
+2026-07-14 20:23:09,948 INFO  ckw.tests.LogoutTest - Opening menu and performing logout.
+2026-07-14 20:23:12,466 INFO  ckw.tests.LogoutTest - Logout successful. Login page displayed.
+2026-07-14 20:23:12,466 INFO  ckw.tests.LogoutTest - ******** Logout Test Passed ********
+2026-07-14 20:23:17,524 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Started ********
+2026-07-14 20:23:17,525 INFO  ckw.tests.e2e - Logging in with Standard User.
+2026-07-14 20:23:22,943 INFO  ckw.tests.e2e - Opening product: Sauce Labs Backpack
+2026-07-14 20:23:23,992 INFO  ckw.tests.e2e - Adding product from Product Details page.
+2026-07-14 20:23:24,126 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 20:23:27,191 INFO  ckw.tests.e2e - Proceeding to Checkout.
+2026-07-14 20:23:32,309 INFO  ckw.tests.e2e - Finishing checkout.
+2026-07-14 20:23:33,396 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 20:23:33,526 INFO  ckw.tests.e2e - Logging out.
+2026-07-14 20:23:36,685 INFO  ckw.tests.e2e - ******** End-to-End Flow 1 Passed ********
+2026-07-14 20:23:41,415 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Started ********
+2026-07-14 20:23:41,415 INFO  ckw.tests.e2e - Logging in.
+2026-07-14 20:23:46,532 INFO  ckw.tests.e2e - Adding first set of products.
+2026-07-14 20:23:49,667 INFO  ckw.tests.e2e - Removing product: Sauce Labs Backpack
+2026-07-14 20:23:50,741 INFO  ckw.tests.e2e - Continuing shopping.
+2026-07-14 20:23:51,695 INFO  ckw.tests.e2e - Adding second set of products.
+2026-07-14 20:23:54,918 INFO  ckw.tests.e2e - Proceeding to Checkout.
+2026-07-14 20:24:00,026 INFO  ckw.tests.e2e - Completing purchase.
+2026-07-14 20:24:01,161 INFO  ckw.tests.e2e - Returning to Products page.
+2026-07-14 20:24:01,296 INFO  ckw.tests.e2e - Logging out.
+2026-07-14 20:24:04,402 INFO  ckw.tests.e2e - ******** End-to-End Flow 2 Passed ********

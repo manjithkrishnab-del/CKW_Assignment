@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Mobile Automation Suite">
+    <listeners>
+
+        <listener class-name="ckw.listeners.ExtentListener"/>
+
+    </listeners>
+
+    <test name="Regression">
+
+        <classes>
+
+            <class name="ckw.tests.LoginTest"/>
+            <class name="ckw.tests.ProductTest"/>
+            <class name="ckw.tests.CartTest"/>
+            <class name="ckw.tests.CheckoutTest"/>
+            <class name="ckw.tests.PerformanceTest"/>
+            <class name="ckw.tests.ProblemUserTest"/>
+            <class name="ckw.tests.LogoutTest"/>
+            <class name="ckw.tests.e2e"/>
+
+        </classes>
+
+    </test>
+
+
+</suite>
